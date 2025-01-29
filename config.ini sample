@@ -1,0 +1,31 @@
+[PATHS]
+db_file = oura_data.db
+token_file = oura_token.json
+[SECRETS]
+client_id = #fill in your client id from oura program
+client_secret = #fill in your client secret from oura program
+[DBVALUES]
+start_date = 2020-01-01
+end_date = 
+[URL]
+callback_url = #fill in your callback url here
+authorization_url = https://cloud.ouraring.com/oauth/authorize
+token_url = https://api.ouraring.com/oauth/token
+
+daily_activity_url = https://api.ouraring.com/v2/usercollection/daily_activity
+daily_cardiovascular_age = https://api.ouraring.com/v2/usercollection/daily_cardiovascular_age
+daily_readiness_url = https://api.ouraring.com/v2/usercollection/daily_readiness
+daily_resilience_url = https://api.ouraring.com/v2/usercollection/daily_resilience
+daily_sleep_url = https://api.ouraring.com/v2/usercollection/daily_sleep
+daily_spo2_url = https://api.ouraring.com/v2/usercollection/daily_spo2
+daily_stress_url = https://api.ouraring.com/v2/usercollection/daily_stress
+enhanced_tag_url = https://api.ouraring.com/v2/usercollection/enhanced_tag
+personal_info_url = https://api.ouraring.com/v2/usercollection/personal_info
+restmode_period_url = https://api.ouraring.com/v2/usercollection/rest_mode_period
+ring_configuration_url = https://api.ouraring.com/v2/usercollection/ring_configuration
+sessions_url = https://api.ouraring.com/v2/usercollection/session
+sleep_url = https://api.ouraring.com/v2/usercollection/sleep
+sleep_time_url = https://api.ouraring.com/v2/usercollection/sleep_time
+vo2max_url = https://api.ouraring.com/v2/usercollection/vO2_max
+workout_url = https://api.ouraring.com/v2/usercollection/workout
+
