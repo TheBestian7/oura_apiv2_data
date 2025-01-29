@@ -11,10 +11,17 @@ The Oura Data Handler program is a Python application that fetches and stores he
 
 ## Configuration
 Rename config.ini sample -> config.ini
+
 Create or use an existing Callback URL and fill in the config.ini
+
 Visit >>> https://cloud.ouraring.com/oauth/applications <<<
+                                                            
 LogIn with your Oura Credentials and create a new Application.
+
 Fill in the Callback URL in the Application Field >>>Redirect URIs<<<
+
 Fill in your client_id and client_secret in config.ini
+
 Change Name for db_file and token_file if wanted and change the start_date.
+
 Leave end_date empty for today or fill in if needed.
